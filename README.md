@@ -63,30 +63,29 @@ python -m http.server 8080
 - **音色选择**：支持选择系统可用的日文/中文语音包。  
 - **随机模式**：随机抽取单词，打破固定顺序。
 
-🗂️ 项目结构
-.
-├── index.html          # 主程序（包含所有样式与脚本）
-├── README.md           # 项目说明文档
-└── LICENSE             # MIT 许可证
-🛠️ 技术栈
-HTML5 / CSS3
 
-JavaScript (ES6)
+## 🛠️ 技术栈
 
-Web Speech API（语音合成）
+- HTML5 / CSS3
+- JavaScript (ES6)
+- Web Speech API（语音合成）
+- SheetJS (XLSX) 库（解析 Excel 文件）
 
-SheetJS (XLSX) 库（解析 Excel 文件）
+## 📝 注意事项
 
-📝 注意事项
-由于浏览器的安全策略，语音合成在页面未与用户交互前可能无法自动播放。请点击任意按钮后再使用朗读功能。
+- 由于浏览器的安全策略，语音合成在页面未与用户交互前可能无法自动播放。请点击任意按钮后再使用朗读功能。
+- 某些移动端浏览器对语音合成的支持有限，建议在桌面端 Chrome 上获得最佳体验。
+- 所有单词数据仅存储在您的浏览器本地，不会上传到任何服务器。
 
-某些移动端浏览器对语音合成的支持有限，建议在桌面端 Chrome 上获得最佳体验。
+## 🤝 贡献与许可
 
-所有单词数据仅存储在您的浏览器本地，不会上传到任何服务器。
+本项目采用 **MIT 许可证**，欢迎 Fork 和修改。如有改进建议，请提交 Issue 或 Pull Request。
 
-🤝 贡献与许可
-本项目采用 MIT 许可证，欢迎 Fork 和修改。如有改进建议，请提交 Issue 或 Pull Request。
+## 📧 联系方式
 
-📧 联系方式
-作者：windyskymathstree
-项目地址：https://github.com/windyskymathstree/jxl-japanese-word-trainer
+作者：windyskymathstree  
+项目地址：[https://github.com/windyskymathstree/jxl-japanese-word-trainer](https://github.com/windyskymathstree/jxl-japanese-word-trainer)
+
+---
+
+**祝您日语学习愉快！🎌**
