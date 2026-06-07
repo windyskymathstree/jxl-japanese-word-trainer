@@ -34,6 +34,8 @@
 # 使用 Python 3
 python -m http.server 8080
 # 然后访问 http://localhost:8080
+```
+
 📁 单词表格式要求
 支持三种格式，必须包含日文和中文两列：
 
